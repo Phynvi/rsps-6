@@ -1,6 +1,6 @@
 package com.rs.game.player.content.squeal;
 
- import java.io.Serializable;
+ import java.io.Serializable;			// GO TO THE BOTTOM 
 import java.text.DecimalFormat;
 
  import com.rs.game.item.Item;
