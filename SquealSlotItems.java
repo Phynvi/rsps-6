@@ -4,7 +4,7 @@ import com.rs.game.item.Item;
 
 public class SquealSlotItems {
 
-	public static Item[] SUPER_RARE_ITEM = { 
+	public static Item[] SUPER_RARE_ITEM = { // This is for what slot it is in
 		new Item(995, 200000000),
 		new Item(995, 10000000),
 		new Item(1038),
@@ -12,8 +12,8 @@ public class SquealSlotItems {
 		new Item(1042),
 		new Item(1046),
 		new Item(1048),
-		new Item(1050),
-		new Item(15098)
+		new Item(1050), // To add an item make a new line and add "new Item()" put the item id in the bracket
+		new Item(15098) // Add a comma ONLY if it is not the last item
 	};
 	public static Item[] RARE_SLOT1 = { 
 		new Item(23715),
