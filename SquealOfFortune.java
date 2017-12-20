@@ -86,23 +86,23 @@ import com.rs.utils.Utils;
 			return;
 		}
 		
-		int rewardType = Utils.random(1, 500);
+		int rewardType = Utils.random(1, 500); // Change the 500 to change the number it rolls between
 		int slot = 0;
 		int slotchange = Utils.getRandom(6);
 		
-		if (rewardType >= 1 && rewardType <= 300) { // Common Slots
+		if (rewardType >= 1 && rewardType <= 300) { // Common Slots. If it rolls between 1 and 300 you get a common
 			slot = slotchange == 1 ? 1 :
 				   slotchange == 2 ? 3 :
 				   slotchange == 3 ? 5 :
 				   slotchange == 4 ? 7 :
 				   slotchange == 5 ? 10 : 12;
-		} else if (rewardType >= 301 && rewardType <= 450) { // Uncommon
+		} else if (rewardType >= 301 && rewardType <= 450) { // Uncommon. Could increase this to account the others
 			slot = slotchange >= 5 ? 6 :
 				   slotchange <= 2 ? 9 : 11;
-		} else if (rewardType >= 451 && rewardType <= 489) { // Rare
+		} else if (rewardType >= 451 && rewardType <= 489) { // Rare. I think i made this way too common
 			slot = slotchange >= 5 ? 0 :
 				   slotchange <= 2 ? 4 : 8;
-		} else if (rewardType >= 499) { // Super Rare
+		} else if (rewardType >= 499) { // Super Rare. Maybe this should be 1/500 idk
 			slot = 2;
 		}
 		
