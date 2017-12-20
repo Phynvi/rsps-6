@@ -95,7 +95,7 @@ public class SquealSlotItems {
 		new Item(1295), 
 		new Item(1325) 
 	};
-	
+	// IGNORE EVERYTHING BELOW THIS YOU DONT NEED TO CHANGE ANYTHING
 	public static Item getSRare() {
 		return SUPER_RARE_ITEM[(int) (Math.random() * SUPER_RARE_ITEM.length)];
 	}
