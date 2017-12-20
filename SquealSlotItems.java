@@ -11,9 +11,9 @@ public class SquealSlotItems {
 		new Item(1040),
 		new Item(1042),
 		new Item(1046),
-		new Item(1048),
-		new Item(1050), // To add an item make a new line and add "new Item()" put the item id in the bracket
-		new Item(15098) // Add a comma ONLY if it is not the last item
+		new Item(1048), // To add an item make a new line and add "new Item()" put the item id in the bracket
+		new Item(1050), // Add a comma ONLY if it is not the last item
+		new Item(15098) // To change an item just replace the ID
 	};
 	public static Item[] RARE_SLOT1 = { 
 		new Item(23715),
