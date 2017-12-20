@@ -15,8 +15,8 @@ public class SquealSlotItems {
 		new Item(1050), 
 		new Item(15098) 
 	};
-	public static Item[] RARE_SLOT1 = { 
-		new Item(23715),
+	public static Item[] RARE_SLOT1 = { // Multiple slots are so the same items don't overlap although its fine if some do
+		new Item(23715), 
 		new Item(23679),
 		new Item(23680),
 		new Item(23681),
