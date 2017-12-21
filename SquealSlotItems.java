@@ -5,95 +5,95 @@ import com.rs.game.item.Item;
 public class SquealSlotItems {
 
 	public static Item[] SUPER_RARE_ITEM = { // This is for what slot it is in
-		new Item(995, 200000000),
-		new Item(995, 10000000),
+		new Item(995, 200000000), // remove
+		new Item(995, 10000000), // remove
 		new Item(1038), // To add an item make a new line and add "new Item()" put the item id in the bracket
 		new Item(1040), // Add a comma ONLY if it is not the last item
 		new Item(1042), // To change an item just replace the ID
 		new Item(1046), // Add a comment next to what you change
 		new Item(1048), 
 		new Item(1050), 
-		new Item(15098) 
+		new Item(26241) 
 	};
 	public static Item[] RARE_SLOT1 = { // Multiple slots are so the same items don't overlap although its fine if some do
-		new Item(23715), 
-		new Item(23679),
-		new Item(23680),
-		new Item(23681),
-		new Item(23682),
-		new Item(23683),
-		new Item(23690)
+		new Item(23715), // 1419
+		new Item(23679), // remove
+		new Item(23680), // remove
+		new Item(23681), // remove
+		new Item(23682), // remove
+		new Item(23683), // remove
+		new Item(23690) // remove
 	};
 	public static Item[] RARE_SLOT2 = { 
-		new Item(23684),
-		new Item(23685),
-		new Item(23686),
-		new Item(23687),
-		new Item(23688),
-		new Item(23689)
+		new Item(23684), // 1050
+		new Item(23685), // 1050
+		new Item(23686), // 1050
+		new Item(23687), // 1050
+		new Item(23688), // 1050
+		new Item(23689) // 30412
 	};
 	public static Item[] RARE_SLOT3 = { 
-		new Item(23691),
-		new Item(23692),
-		new Item(23693),
-		new Item(23694),
-		new Item(23695),
-		new Item(23696),
-		new Item(23697),
-		new Item(23698),
-		new Item(23699),
-		new Item(23700)
+		new Item(23691), // 962
+		new Item(23692), // remove
+		new Item(23693), // remove
+		new Item(23694), // remove
+		new Item(23695), // remove
+		new Item(23696), // remove
+		new Item(23697), // remove
+		new Item(23698), // remove
+		new Item(23699), // remove
+		new Item(23700) // remove
 	};
 	public static Item[] UNCOMMON_SLOT1 = { 
-		new Item(9181),
-		new Item(9183),
-		new Item(857)
+		new Item(9181), // 1053
+		new Item(9183), // remove
+		new Item(857) // remove
 	};
 	public static Item[] UNCOMMON_SLOT2 = { 
-		new Item(1119),
-		new Item(1121),
-		new Item(1123),
-		new Item(1127)
+		new Item(1119), // 1055
+		new Item(1121), // remove
+		new Item(1123), // remove
+		new Item(1127) // remove
 	};
 	public static Item[] UNCOMMON_SLOT3 = { 
-		new Item(12976),
-		new Item(1133),
-		new Item(23714)
+		new Item(12976), // 1057
+		new Item(1133), // remove
+		new Item(23714) // remove
 	};
 	public static Item[] COMMON_SLOT1 = {
-		new Item(23713),
-		new Item(9177),
-		new Item(9179),
-		new Item(9174)
+		new Item(23713), // remove
+		new Item(9177), // 1961
+		new Item(9179), // remove
+		new Item(9174) // remove
 	};
 	public static Item[] COMMON_SLOT2 = {
-		new Item(2, 30),
-		new Item(886, 300)
+		new Item(2, 30), // 1959
+		new Item(886, 300) // remove
 	};
 	public static Item[] COMMON_SLOT3 = { 
-		new Item(1515, 15),
-		new Item(444, 20)
+		new Item(1515, 15), // 981
+		new Item(444, 20) // remove
 	};
 	public static Item[] COMMON_SLOT4 = { 
-		new Item(563, 40),
-		new Item(843),
-		new Item(1325),
-		new Item(1313),
-		new Item(1361)
+		new Item(563, 40), // 995 dunno how many coins
+		new Item(843), // remove
+		new Item(1325), // remove
+		new Item(1313), // remove
+		new Item(1361) // remove
 	};
 	public static Item[] COMMON_SLOT5 = { 
-		new Item(1367),
-		new Item(1297),
-		new Item(1327),
-		new Item(1205)
+		new Item(1367), // 1959
+		new Item(1297), // remove
+		new Item(1327), // remove
+		new Item(1205) // remove
 	};
 	public static Item[] COMMON_SLOT6 = { 
-		new Item(853),
-		new Item(1311), 
-		new Item(1365), 
-		new Item(1353),
-		new Item(1295), 
-		new Item(1325) 
+		new Item(853), // 1961
+		new Item(1311), // remove
+		new Item(1365), // remove
+		new Item(1353), // remove
+		new Item(1295), // remove
+		new Item(1325) // remove
 	};
 	// IGNORE EVERYTHING BELOW THIS YOU DONT NEED TO CHANGE ANYTHING
 	public static Item getSRare() {
