@@ -54,8 +54,8 @@ import com.rs.utils.Utils;
 		items.add(getCommon(4)); // Common
 		items.add(getRare(3)); // Rare
 		items.add(getUnCommon(2)); // UnCommon
-		items.add(getCommon(5)); // Com
-		items.add(getUnCommon(3)); // UnCom
+		items.add(getCommon(5)); // Common
+		items.add(getUnCommon(3)); // UnCommon
 		items.add(getCommon(6)); // Common
 		player.getPackets().sendItems(665, false, items);
 	}
