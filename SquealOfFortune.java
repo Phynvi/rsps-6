@@ -96,10 +96,10 @@ import com.rs.utils.Utils;
 				   slotchange == 3 ? 5 :
 				   slotchange == 4 ? 7 :
 				   slotchange == 5 ? 10 : 12;
-		} else if (rewardType >= 301 && rewardType <= 450) { // Uncommon. Could increase this to account the others
+		} else if (rewardType >= 301 && rewardType <= 488) { // Uncommon. Could increase this to account the others
 			slot = slotchange >= 5 ? 6 :
 				   slotchange <= 2 ? 9 : 11;
-		} else if (rewardType >= 451 && rewardType <= 489) { // Rare. I think i made this way too common
+		} else if (rewardType >= 489 && rewardType <= 498) { // Rare. I think i made this way too common
 			slot = slotchange >= 5 ? 0 :
 				   slotchange <= 2 ? 4 : 8;
 		} else if (rewardType >= 499) { // Super Rare. Maybe this should be 1/500 idk
